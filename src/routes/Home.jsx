@@ -70,7 +70,7 @@ export default function Home() {
 
   const listOfCountries = (
     <section className=" mt-8">
-      <ul className=" flex justify-start items-center flex-col sm:flex-row sm:flex-wrap  gap-12">
+      <ul className=" flex justify-start items-center flex-col md:flex-row sm:flex-wrap  gap-12">
         {countries
           .filter((country) => {
             if (
